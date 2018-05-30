@@ -12,7 +12,7 @@ public class FaceController {
 
     @GetMapping("/face")
     public String face(Map<String, Object> model) {
-        model.put("face", new CryFace().face());
+        model.put("face", new SmileFace().face());
         return "face";
     }
 }
