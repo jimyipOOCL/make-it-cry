@@ -1,4 +1,6 @@
 package com.cry.it.make.domain;
 
-public class AbstractFace {
+public abstract class AbstractFace {
+
+    public abstract String face();
 }

@@ -1,6 +1,6 @@
 package com.cry.it.make.domain;
 
-public class Face {
+public class SmileFace extends AbstractFace {
 
     public String face() {
         return "smile";

@@ -5,10 +5,10 @@ import org.junit.Test;
 import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.assertThat;
 
-public class FaceTest {
+public class SmileFaceTest {
 
     @Test
     public void should_smile() throws Exception {
-        assertThat(new Face().face(), is("smile"));
+        assertThat(new SmileFace().face(), is("smile"));
     }
 }
